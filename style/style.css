@@ -57,3 +57,33 @@
     font-size: 48px;
     line-height: 58px;
 }
+.category {
+
+}
+.category__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+}
+.category__item {
+    width: 100%;
+    height: 180px;
+
+}
+.category__item:not(:last-child) {
+    width: 360px;
+    margin-bottom: 30px;
+    height: 260px;
+}
+.category__item_women {
+    background-image: url(../img/cat_women.png);
+}
+.category__item_men {
+    background-image: url(../img/cat_men.png);
+}
+.category__item_kids {
+    background-image: url(../img/cat_kids.png);
+}
+.category__item_accesories {
+    background-image: url(../img/cat_accesories.png);
+}
