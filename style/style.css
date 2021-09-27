@@ -60,6 +60,7 @@
 .category {
 margin-top: 65px;
 margin-bottom: 96px;
+background-color: #E5E5E5;
 }
 .category__wrap {
   display: flex;
