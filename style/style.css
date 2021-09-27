@@ -60,7 +60,6 @@
 .category {
 margin-top: 65px;
 margin-bottom: 96px;
-background-color: #E5E5E5;
 }
 .category__wrap {
   display: flex;
@@ -99,4 +98,18 @@ background-color: #E5E5E5;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 19px;
+}
+
+
+.catalog__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    width: 360px;
+    height: 581px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background-color: blueviolet;
 }
