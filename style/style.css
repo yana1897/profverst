@@ -6,7 +6,6 @@
 .header {
     background-color: #222222;
     padding: 19px 0;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
 }
 .header__wrap {
     display: flex;
@@ -37,7 +36,6 @@
     background-image: url('../img/man_bg.png');
     background-repeat: no-repeat;
     background-position: -212px bottom;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .intro__text {
     max-width: 377px;
@@ -78,7 +76,6 @@ margin-bottom: 96px;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 }
 .category__item:not(:last-child) {
@@ -147,11 +144,11 @@ margin-bottom: 96px;
     background-color: #F8F8F8;
 }
 .card__text { 
+    padding: 25px 30px 20px 18px;
 }
 .card_mame {
     font-size: 13px;
     line-height: 16px; 
-    padding-top: 25px;
     color: #000000;
 }
 .prgph {
@@ -172,6 +169,7 @@ margin-bottom: 96px;
    align-items: center;
    justify-content: center;
    box-sizing: border-box;
+   margin-bottom: 96px;
 }
 .bottom_to_catalog {
     padding: 15px 39px;
