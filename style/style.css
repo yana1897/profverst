@@ -111,5 +111,23 @@ margin-bottom: 96px;
     height: 581px;
     margin-bottom: 30px;
     box-sizing: border-box;
-    background-color: blueviolet;
+}
+.card_mame {
+    font-size: 13px;
+    line-height: 16px; 
+    padding-top: 25px;
+    color: #000000;
+}
+.prgph {
+    padding-bottom: 18px;
+    padding-top: 13px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+.text__price {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }
