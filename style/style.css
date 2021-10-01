@@ -187,8 +187,10 @@ margin-bottom: 96px;
 .conditions__wrap {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
 }
+
 .conditions__info {
     display: flex;
     flex-direction: column;
