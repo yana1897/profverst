@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 .header {
     background-color: #222222;
@@ -100,8 +102,6 @@ margin-bottom: 96px;
 }
 .category__text_style {
     color: #FFFFFF;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -116,16 +116,12 @@ margin-bottom: 96px;
 }
 .catalog__heading__text {
    color: #222222; 
-   font-style: normal;
-   font-weight: normal;
    font-size: 30px;
    line-height: 36px;
    padding-bottom: 6px;
 }
 .catalog__heading__prgph {
     color: #9f9f9f;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 17px;
 }
@@ -158,7 +154,6 @@ margin-bottom: 96px;
     color: #5D5D5D;
 }
 .text__price {
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
 }
@@ -174,8 +169,6 @@ margin-bottom: 96px;
     border: 1px solid #FF6A6A;
     text-decoration: none;
     color: #f26376;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
 }
@@ -189,6 +182,7 @@ margin-bottom: 96px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding-top: 103px;
 }
 
 .conditions__info {
@@ -201,18 +195,17 @@ margin-bottom: 96px;
     height: 134px;
 }
 .conditions__card_mame {
-    font-style: normal;
-    font-weight: normal;
     font-size: 19.96px;
     line-height: 24px;
     color: #FBFBFB;
     text-align: center;
+    padding-top: 20px;
 }
 .conditions__prgph {
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     color: #FBFBFB; 
+    padding-top: 16px;
 }
