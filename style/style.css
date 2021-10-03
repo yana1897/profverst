@@ -219,12 +219,22 @@ margin-bottom: 96px;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 97px;
+    background-image: url(/img/photo_subscribe_color.jpg);
+    background-position: ;
 }
 .subscribe__comment {
-    
+    display: flex;    
+}
+.subscribe__with_input {
+    display: flex;
+    flex-direction: column;
 }
 .subscribe__form {
     display: flex;
+}
+.subscribe__header {
+    padding-bottom: 32px;
+    text-align: center;
 }
 .field {
     background-color: #E1E1E1;
