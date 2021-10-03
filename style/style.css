@@ -197,6 +197,7 @@ margin-bottom: 96px;
 .conditions__card_mame {
     font-size: 19.96px;
     line-height: 24px;
+    font-weight: 400;
     color: #FBFBFB;
     text-align: center;
     padding-top: 20px;
@@ -208,4 +209,47 @@ margin-bottom: 96px;
     text-align: center;
     color: #FBFBFB; 
     padding-top: 16px;
+}
+.subscribe {
+    background-color: #D73C3C;
+    min-height: 448px;
+}
+.subscribe__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 97px;
+}
+.subscribe__comment {
+    
+}
+.subscribe__form {
+    display: flex;
+}
+.field {
+    background-color: #E1E1E1;
+    height: 50px;
+    width: 256px;
+    border: none;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.field::placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.67;  
+  margin: 7px 64px 6px 0px;
+  padding-left: 22px;
+}
+.btn {
+    background-color: #F16D7F;
+    height: 50px;
+    width: 100px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 7px 7px 6px 8px;
+    border: none;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
 }
