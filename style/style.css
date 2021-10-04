@@ -295,3 +295,19 @@ margin-bottom: 96px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
 }
+.footer {
+    background-color: #222224;
+    height: 79px;
+    display: flex;
+    align-items: center;
+}
+.footer__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.rights__prgph {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
