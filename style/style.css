@@ -318,3 +318,26 @@ margin-bottom: 96px;
     color: #FBFBFB;
     font-weight: 400;
 }
+.cat__heading {
+    height: 148px;
+    background-color: #F8F3F4;
+}
+.cat__heading__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.arrivals {
+    font-size: 24px;
+    line-height: 29px;
+}
+.arrivals_right {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+.margin__for_filters {
+    margin-top: 132px;
+    margin-bottom: 150px;
+}
