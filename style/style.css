@@ -5,7 +5,12 @@
     font-weight: normal;
     font-style: normal;
 }
-.header {
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+.header_top {
     background-color: #222222;
     padding: 19px 0;
 }
@@ -296,7 +301,7 @@ margin-bottom: 96px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
 }
-.footer {
+.footer_m {
     background-color: #222224;
     min-height: 79px;
 }
