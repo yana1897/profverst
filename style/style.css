@@ -182,7 +182,7 @@ margin-bottom: 96px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 103px;
+    padding-top: 50px;
 }
 
 .conditions__info {
@@ -193,6 +193,7 @@ margin-bottom: 96px;
     box-sizing: border-box;
     width: 360px;
     height: 134px;
+    margin-top: 50px;
 }
 .conditions__card_mame {
     font-size: 19.96px;
@@ -219,7 +220,7 @@ margin-bottom: 96px;
 }
 .subscribe__wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 97px;
     padding-bottom: 126px;
 }
@@ -297,17 +298,18 @@ margin-bottom: 96px;
 }
 .footer {
     background-color: #222224;
-    height: 79px;
-    display: flex;
-    align-items: center;
+    min-height: 79px;
 }
 .footer__wrap {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .rights__prgph {
     font-size: 16px;
     line-height: 19px;
     color: #FBFBFB;
+    font-weight: 400;
 }
