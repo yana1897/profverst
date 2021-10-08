@@ -90,6 +90,12 @@ margin-bottom: 96px;
     margin-bottom: 30px;
     height: 260px;
 }
+.link_woman {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    align-items: center;
+}
 .category__item_women {
     background-image: url(../img/cat_women.png);
 }
