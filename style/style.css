@@ -180,14 +180,17 @@ margin-bottom: 96px;
 
 .conditions {
     background-color: #222224;
-    min-height: 341px;
 }
-.conditions__wrap {
+.conditions__center {
+    min-height: 341px;
+    max-width: 1160px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
+}
+.conditions__wrap {
+   display: flex; 
+   flex-wrap: wrap;
 }
 
 .conditions__info {
@@ -198,7 +201,6 @@ margin-bottom: 96px;
     box-sizing: border-box;
     width: 360px;
     height: 134px;
-    margin-top: 50px;
 }
 .conditions__card_mame {
     font-size: 19.96px;
@@ -358,5 +360,5 @@ text-decoration: none;
 }
 .social-link:hover {
     color: #FFFFFF;
-    background-color: #F16D7F;;
+    background-color: #F16D7F;
 }
