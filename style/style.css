@@ -341,3 +341,22 @@ margin-bottom: 96px;
     margin-top: 132px;
     margin-bottom: 150px;
 }
+.social {
+   display: flex;
+   justify-content: space-between;
+   width: 148px;
+}
+.social-link {
+color: black;
+background-color: #FFFFFF;
+width: 32px;
+height: 32px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+}
+.social-link:hover {
+    color: #FFFFFF;
+    background-color: #F16D7F;;
+}
