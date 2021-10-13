@@ -175,7 +175,7 @@ margin-bottom: 96px;
    box-sizing: border-box;
    margin-bottom: 96px;
 }
-.bottom_to_catalog {
+.bottom__pink {
     padding: 15px 39px;
     border: 1px solid #FF6A6A;
     text-decoration: none;
@@ -367,4 +367,11 @@ text-decoration: none;
 .social-link:hover {
     color: #FFFFFF;
     background-color: #F16D7F;
+}
+.product {
+    background-color: #f7f7f7;
+    height: 777px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
