@@ -375,3 +375,14 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
 }
+.product_description_top_header {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+.pink_line {
+    width: 63px;
+    height: 3.03px;
+    background-color: #EF5B70;
+    border-color: #EF5B70;
+}
